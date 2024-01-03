@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.25",
+	"EngineAssociation": "5.3",
 	"Category": "",
 	"Description": "",
 	"Enterprise": true,
@@ -14,15 +14,7 @@
 			"Enabled": true
 		},
 		{
-			"Name": "DatasmithImporter",
-			"Enabled": true
-		},
-		{
 			"Name": "VariantManager",
-			"Enabled": true
-		},
-		{
-			"Name": "PythonScriptPlugin",
 			"Enabled": true
 		},
 		{
@@ -34,44 +26,47 @@
 			"Enabled": false
 		},
 		{
-			"Name": "DatasmithCADImporter",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64"
-			]
-		},
-		{
-			"Name": "DatasmithIFCImporter",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64"
-			]
-		},
-		{
-			"Name": "StaticMeshEditorExtension",
-			"Enabled": true
-		},
-		{
-			"Name": "DatasmithGLTFImporter",
-			"Enabled": true
-		},
-		{
-			"Name": "AxFImporter",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64"
-			]
-		},
-		{
 			"Name": "ModelingToolsEditorMode",
 			"Enabled": true
 		},
 		{
-			"Name": "DatasmithC4DImporter",
+			"Name": "OpenXR",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
 				"Win64",
-				"Mac"
+				"Linux",
+				"Android"
+			]
+		},
+		{
+			"Name": "OpenXRViveTracker",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Android"
+			]
+		},
+		{
+			"Name": "XRBase",
+			"Enabled": true
+		},
+		{
+			"Name": "OpenXREyeTracker",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Android"
+			]
+		},
+		{
+			"Name": "OpenXRHandTracking",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Android"
 			]
 		}
 	]
